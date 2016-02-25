@@ -1,0 +1,34 @@
+{
+	"description": "API Example using Express + Mongoose",
+	"repository": {
+		"type": "git",
+		"url": "http://github.com/cwolchesky/NodeAPIExample"
+	},
+	"license": "GPL-3.0",
+	"scripts":
+	{
+		"test": "mocha",
+		"start": "node server.js"
+	},
+	"dependencies":
+	{
+		"express":"*",
+		"serve-favicon":"*",
+		"morgan": "*",
+		"body-parser": "*",
+		"method-override": "*",
+		"winston": "*",
+		"mongoose": "*",
+		"nconf": "*",
+		"faker": "*",
+		"oauth2orize": "*",
+		"passport": "*",
+		"passport-http": "*",
+		"passport-http-bearer": "*",
+		"passport-oauth2-client-password": "*"
+	},
+	"devDependencies":
+	{
+		"mocha": "*"
+	}
+}
